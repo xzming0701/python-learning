@@ -1,6 +1,6 @@
-# 02 - NumPy / pandas / Matplotlib（D030–D043）
+﻿# 02 - NumPy / pandas / Matplotlib（D031–D044）
 
-**主课**：[Numpy+Pandas+Matplotlib 教程](https://www.bilibili.com/video/BV12Hac6fETB)
+**主课**：**尚硅谷《Python 数据分析》**（官网免费下载：https://www.atguigu.com/video/339/ ，69 节）
 **时间分配**：NumPy 60% ｜ Matplotlib 25% ｜ pandas 15%
 
 **为什么不能跳**：强化学习的代码 90% 是「矩阵运算 + 随机采样 + 画曲线」。跳过这 14 天，第四阶段必然卡死。
@@ -24,7 +24,7 @@ jupyter notebook        # 或者直接在 VS Code 里新建 .ipynb
 | **布尔索引** | `a[a > 0]` 比循环快 100 倍 | 能从随机数组筛出 >0.5 的元素 |
 | **np.random** | RL 全是随机采样；seed 保证实验可复现 | 每次跑实验先 `np.random.seed(42)` |
 
-## 🔴 阶段验收（D043）
+## 🔴 阶段验收（D044）
 
 **A. 纯 NumPy 实现线性回归的批量梯度下降**（不许用任何 for 循环、不许用 sklearn）
 

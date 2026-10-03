@@ -1,12 +1,12 @@
-# 03 - PyTorch 与深度学习（D044–D064）
+﻿# 03 - PyTorch 与深度学习（D045–D064）
 
-**主课**：[刘二大人《PyTorch 深度学习实践》](https://www.bilibili.com/video/BV1Y7411d7Ys)（第一遍，快）
-**辅课**：[李沐《动手学深度学习》](https://courses.d2l.ai/zh-v2/)（第二遍，深。B 站搜「跟李沐学AI」）
+**主课**：**尚硅谷《PyTorch 深度学习》**（官网免费下载：https://www.atguigu.com/video/348/ ，138 节；001–041 手工实现原理，042 后进 PyTorch）
+**辅课**：刘二大人《PyTorch 深度学习实践》 + 李沐《动手学深度学习》（卡壳时查）
 **辅课重点**：线性神经网络 → 多层感知机 → 深度学习计算 → 卷积神经网络（前 6 章）
 
 **硬件**：RTX 4070 Laptop (8GB) —— 训练 MNIST / CIFAR-10 绰绰有余，注意笔记本散热。
 
-## D044 先装 PyTorch
+## D045 先装 PyTorch
 
 ```bash
 conda activate rl
@@ -57,7 +57,7 @@ for epoch in range(n_epochs):
 ## 第一批项目文件命名建议
 
 ```
-D044_cuda_check.py           D050_训练五步循环.py
+D045_cuda_check.py           D050_训练五步循环.py
 D054_mnist_mlp.py            D057_cifar10_cnn.py
 D062_手写反向传播/
     ├── mlp_numpy.py         ← 纯 numpy 版本
