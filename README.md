@@ -1,4 +1,4 @@
-# python-learning
+﻿# python-learning
 
 104 天：从 0 基础到能手写 PPO。
 
@@ -17,8 +17,8 @@
 | 目录 | 放什么 | 对应天数 |
 |---|---|---|
 | `00-计划/` | 学习路线 + 104 天作战计划（每天在这里打勾） | — |
-| `01-Python基础/` | Python 语法练习，按周分文件夹 | D001–D029 |
-| `01-Python基础/项目-学生成绩管理/` | 第一阶段综合项目 | D029 |
+| `01-Python基础/` | Python 语法练习，按周分文件夹 | D001–D030 |
+| `01-Python基础/项目-学生成绩管理/` | 第一阶段综合项目 | D028–D30 |
 | `02-NumPy与数据分析/` | NumPy / pandas / Matplotlib 练习 | D030–D043 |
 | `03-PyTorch与深度学习/` | 张量、autograd、MNIST、CIFAR-10、手写反向传播 | D044–D064 |
 | `04-强化学习/` | DQN / 策略梯度 / PPO | D093–D104 |
@@ -87,7 +87,7 @@ conda activate rl
 
 ## 进度
 
-- [ ] 第一阶段 Python 核心语法（D001–D029）
+- [ ] 第一阶段 Python 核心语法（D001–D030）
 - [ ] 第二阶段 NumPy / pandas / Matplotlib（D030–D043）
 - [ ] 第三阶段 PyTorch + 深度学习（D044–D064）
 - [ ] 复习周 + 考试周（D065–D092）
