@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- 虚拟环境（不要提交，非常大）----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- 强化学习产物（模型权重和视频非常大）----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp4
+*.gif
+runs/
+logs/
+wandb/
+outputs/
+checkpoints/
+
+# ---- 数据集 ----
+data/
+datasets/
+*.csv
+*.zip
+*.tar.gz
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时 ----
+*.tmp
+*.bak
+~$*
