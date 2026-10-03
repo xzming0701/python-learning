@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 D001 · 2026-10-03 · 第一行 Python 代码
 
@@ -6,7 +6,7 @@ D001 · 2026-10-03 · 第一行 Python 代码
     1. VS Code 里按 Ctrl+F5
     2. 或者终端：
        conda activate rl
-       cd /d D:\code\python-learning
+       cd /d D:/code/python-learning         # 用正斜杠！文档里想写 \\n 这种反斜杠要写两个
        python "01-Python基础/week1/D001_hello.py"
 
 今天的任务：让这个文件跑起来，然后动手改几处，看输出怎么变。
@@ -28,9 +28,10 @@ print("divmod     =", divmod(10, 3))  # (3, 1)  同时拿到商和余数
 print("-" * 40)
 
 # ============ 2. 变量：不需要声明类型 ============
-name = "小明"
-age = 20
-height = 1.75
+name = "谢泽铭"
+age = 21
+height = 1.76
+weight=70
 is_student = True                # 注意首字母大写，C 里没有这个类型
 
 # f-string：最常用的字符串格式化，比 C 的 printf 好用
@@ -51,3 +52,6 @@ print("2 的 100 次方 =", 2 ** 100)
 # 2. 加一行，用 f-string 打印你的 BMI（体重kg / 身高m的平方）
 # 3. 试试 print(10 // 0) 会发生什么？把报错信息读一遍，再改回来
 # 4. 试试 print("年龄" + 20) 会报什么错？为什么？怎么改才对？
+print(f"我的BMI是{weight/height**2:.1f}")
+#print(10//0)
+print("年龄",20)
